@@ -1,0 +1,68 @@
+.container{
+    height: 90vh;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+.newGame{
+    margin: auto;
+}
+
+.gameBoard{
+    display: flex;
+    height:80vh;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+}
+
+.dice{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.dot{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons{
+    margin: auto;
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+
+button{
+    border: none;
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.winner{
+    margin: auto;
+    display: none;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content= 
+            "width=device-width, initial-scale=1.0"> 
+        <title>Dice Game</title> 
+        <link type="text/css" rel="stylesheet" href="CssFile.css"/>
+        <script type="text/javascript" src="JSFile.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>The Dice Game</h1>
+            <div id="newGame" class="newGame">
+                <button onclick="newGame()">Start New Game</button>
+            </div>
+            <div id="gameBoard" class="gameBoard">
+                <h2 id="player">Player A's Turn</h2>
+                <div >
+                    <h3>Scores</h3>
+                    <div class="scores">
+                        <div class="playerScore">
+                            <h3>Player A</h3>
+                            <h3 id="scoreA">0</h3>
+                        </div>
+                        <div class="playerScore">
+                            <h3>Player B</h3>
+                            <h3 id="scoreB">0</h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="dice" class="dice">
+                    <div class="dot"></div>
+                </div>
+                <div class="buttons">
+                    <button onclick="rollDice()">Roll Dice</button>
+                    <button onclick="switchPlayer()">Hold</button>
+                </div>
+            </div>
+            <div id="winner" class="winner">
+                <h2 id="winnerMessage">Player A Wins!!!</h2>
+            </div>
+
+            </div>
+        </div>
+    </body>
+
+</html>
